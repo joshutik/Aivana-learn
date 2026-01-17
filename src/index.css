@@ -16,3 +16,14 @@
 .de-chalenge {
   background-color: #111827;
 }
+
+.challenge-card {
+  background-color: #1D2432 !important;
+  color: white !important ;
+  min-height:150px !important;
+}
+
+.feature-card {
+  background-color:#F2F2F7 !important;
+  min-height:150px !important;
+}
