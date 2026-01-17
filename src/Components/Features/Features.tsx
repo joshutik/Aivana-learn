@@ -1,4 +1,10 @@
 // import React from 'react'
+import img1 from '../../assets/brain.png';
+import img2 from '../../assets/chat.png';
+import img3 from '../../assets/search.png';
+import img4 from '../../assets/chart.png';
+import img5 from '../../assets/pad.png';
+import img6 from '../../assets/wifi.png';
 
 const Features = () => {
     return (
@@ -23,6 +29,7 @@ const Features = () => {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-3 mb-sm-3">
                             <div className="card h-100 shadow-lg feature-card">
                                 <div className="card-body">
+                                <img src={img1} alt="" className='img-fluid my-3' />
                                     <h5 className="card-title">Personalized Learning</h5>
                                     <p className="card-text">
                                         Student struggle to get
@@ -35,6 +42,7 @@ const Features = () => {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-3 mb-sm-3">
                             <div className="card h-100 shadow-lg feature-card">
                                 <div className="card-body">
+                                    <img src={img2} alt="" className='img-fluid my-3' />
                                     <h5 className="card-title">AI-Powered Explanantion</h5>
                                     <p className="card-text">
                                         Poor-quality textbooks and
@@ -47,6 +55,7 @@ const Features = () => {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-3 mb-sm-3">
                             <div className="card h-100 shadow-lg feature-card">
                                 <div className="card-body">
+                                <img src={img3} alt="" className='img-fluid my-3' />
                                     <h5 className="card-title">Exam-Standard Practice</h5>
                                     <p className="card-text">
                                         Teaching approaches that ingore
@@ -59,6 +68,7 @@ const Features = () => {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-3 mb-sm-3">
                             <div className="card h-100 shadow-lg feature-card">
                                 <div className="card-body">
+                                <img src={img4} alt="" className='img-fluid my-3' />
                                     <h5 className="card-title">Smart Analytics</h5>
                                     <p className="card-text">
                                         Low confidence anf fear of
@@ -70,6 +80,7 @@ const Features = () => {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-3 mb-sm-3">
                             <div className="card h-100 shadow-lg feature-card">
                                 <div className="card-body">
+                                <img src={img5} alt="" className='img-fluid my-3' />
                                     <h5 className="card-title">Gamified Learning</h5>
                                     <p className="card-text">
                                         Earn XP, maintain streaks, unlock badges, and compete on leaderboards, Learning made fun!
@@ -80,6 +91,7 @@ const Features = () => {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-3 mb-sm-3">
                             <div className="card h-100 shadow-lg feature-card">
                                 <div className="card-body">
+                                <img src={img6} alt="" className='img-fluid my-3' />
                                     <h5 className="card-title">Work Offline</h5>
                                     <p className="card-text">
                                         Download lessons and practice anywhere. Perfect for areas with limited connectivity

@@ -1,4 +1,8 @@
 // import React from 'react'
+import img1 from '../../assets/person.png';
+import img2 from '../../assets/book.png';
+import img3 from '../../assets/brain.png';
+import img4 from '../../assets/chart.png';
 
 const Challengepage = () => {
     return (
@@ -24,6 +28,7 @@ const Challengepage = () => {
                         <div className="col-lg-3 col-md-6 col-sm-6 mb-3 mb-sm-0">
                             <div className="card h-100 shadow-lg challenge-card">
                                 <div className="card-body">
+                                    <img src={img1} alt="" className='img-fluid my-3' />
                                     <h5 className="card-title">Overcrowded Classroom</h5>
                                     <p className="card-text">
                                         Student struggle to get
@@ -36,6 +41,7 @@ const Challengepage = () => {
                         <div className="col-lg-3 col-md-6 col-sm-6 mb-3 mb-sm-0">
                             <div className="card h-100 shadow-lg challenge-card">
                                 <div className="card-body">
+                                    <img src={img2} alt="" className='img-fluid my-3' />
                                     <h5 className="card-title">Outdated Materials</h5>
                                     <p className="card-text">
                                         Poor-quality textbooks and
@@ -48,6 +54,7 @@ const Challengepage = () => {
                         <div className="col-lg-3 col-md-6 col-sm-6 mb-3 mb-sm-0">
                             <div className="card h-100 shadow-lg challenge-card">
                                 <div className="card-body">
+                                    <img src={img3} alt="" className='img-fluid my-3' />
                                     <h5 className="card-title">One-size-Fits-All</h5>
                                     <p className="card-text">
                                         Teaching approaches that ingore
@@ -60,6 +67,7 @@ const Challengepage = () => {
                         <div className="col-lg-3 col-md-6 col-sm-6 mb-3 mb-sm-0">
                             <div className="card h-100 shadow-lg challenge-card">
                                 <div className="card-body">
+                                    <img src={img4} alt="" className='img-fluid my-3' />
                                     <h5 className="card-title">High Exam Anxiety</h5>
                                     <p className="card-text">
                                         Low confidence anf fear of
