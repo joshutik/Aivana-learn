@@ -12,7 +12,7 @@ const Features = () => {
             <section className="features-section d-flex align-items-center">
                 <div className="container mt-5">
                     <div className="container mb-4 text-center">
-                        <h6 className="text-warning text-center my-4">FEATURES</h6>
+                        <h6 className=" text-center my-4 feature-head">FEATURES</h6>
                         <div className="row justify-content-center">
                             <div className="col-lg-7 col-md-8 col-sm-12">
 

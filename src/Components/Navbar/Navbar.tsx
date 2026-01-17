@@ -1,11 +1,12 @@
 // import React from 'react'
+import img1 from '../../assets/logo.png';
 
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-light navbar-light py-3">
+      <nav className="navbar navbar-expand-lg bg-light navbar-light py-3 fixed-top shadow-sm">
         <div className="container">
-          <a className="navbar-brand" href="#">Aivana</a>
+          <a className="navbar-brand" href="#"><img src={img1} alt="" className='img-fluid me-2' />Aivana</a>
           <button
             className="navbar-toggler"
             type="button"
@@ -24,13 +25,13 @@ const Navbar = () => {
                 <a className="nav-link active" aria-current="page" href="#">Feature</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Exams</a>
+                <a className="nav-link text-secondary fw-bold" href="#">Exams</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Pricing</a>
+                <a className="nav-link text-secondary fw-bold" href="#">Pricing</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">About</a>
+                <a className="nav-link text-secondary fw-bold" href="#">About</a>
               </li>
             </ul>
 

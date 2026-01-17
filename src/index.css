@@ -1,4 +1,12 @@
 /* hero section  */
+.hero-div {
+  background-color: #E3E7F3 !important;
+}
+
+.star{
+  width: 20px !important;
+}
+
 .prep {
   background-color: #C8D6F0 !important;
 }
@@ -9,6 +17,54 @@
 
 .score {
   background-color: #00C853;
+}
+
+.solve {
+  background-color: #F2F2F7 !important;
+}
+
+
+/* Default (desktop already handled by your styles) */
+
+/* Tablets and below */
+@media (max-width: 768px) {
+  .score {
+    position: static !important;
+    width: 100% !important;
+    margin-top: 1rem;
+    transform: none !important;
+  }
+
+  .equation {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  .streak {
+    position: static !important;
+    transform: none !important;
+    margin-top: 1rem;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .card {
+    padding: 1.5rem !important;
+  }
+
+  .solve {
+    font-size: 0.9rem !important;
+  }
+
+  .equation {
+    font-size: 0.9rem;
+    padding: 1rem !important;
+  }
+
+  .fire {
+    width: 20% !important;
+  }
 }
 
 /* the challenge section */
@@ -23,7 +79,26 @@
   min-height:150px !important;
 }
 
+.feature-head {
+  color: #30AA62 !important;
+}
+
 .feature-card {
   background-color:#F2F2F7 !important;
   min-height:200px !important;
+}
+
+.fire {
+  width: 30px !important;
+}
+
+.streak {
+  height: 80px !important;
+  margin-right: 1rem !important;
+}
+
+@media screen and (max-width: 768px) {
+  .streak {
+    margin-right: 0.5rem !important;
+  }
 }
