@@ -105,3 +105,20 @@
 .numbers {
   background-color: #0052CC !important;
 }
+
+.bi-star-fill {
+  color: #FFCC00 !important;
+}
+
+.points {
+  background-color: #D5EDE3!important;
+  color: #0DCA5C !important;
+}
+
+.identity {
+  font-size: x-small;
+}
+.identity1 {
+  font-size: small;
+}
+
