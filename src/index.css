@@ -122,3 +122,7 @@
   font-size: small;
 }
 
+footer {
+  background-color: #111827 !important;
+  color: white !important;
+}

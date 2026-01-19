@@ -6,6 +6,8 @@ import Features from './Components/Features/Features.js';
 import Exam from './Components/Exam/Exam.js';
 import Testimonials from './Components/Testimonials/Testimonials.js';
 import Pricing from './Components/Pricing/Pricing.js';
+import Calltoaction from './Components/Calltoaction/Calltoaction.js';
+import Footer from './Components/Footer/Footer.js';
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
       <Exam/>
       <Testimonials/>
       <Pricing/>
+      <Calltoaction/>
+      <Footer/>
     </>
   )
 }
