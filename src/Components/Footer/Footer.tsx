@@ -7,7 +7,7 @@ import img5 from '../../assets/youtube.png';
 
 const Footer = () => {
     return (
-        <div className='py-5'>
+        <div className='conatiner-fluid py-5'>
             <footer className="footer bg-dark text-light py-4 mt-5">
                 <div className="container">
                     <div className="row mt-5">
@@ -30,7 +30,7 @@ const Footer = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-6 col-md-6 col-sm-12 ms-5">
+                        <div className="col-lg-6 col-md-6 col-sm-12 ms-2">
                             <div className="row">
                                 <div className="col-md-3">
                                     <h5>Product</h5>

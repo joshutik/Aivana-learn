@@ -2,7 +2,7 @@
 
 const Calltoaction = () => {
     return (
-        <div>
+        <div className="container-fluid">
             <section className="calltoaction-section d-flex align-items-center bg-dark">
                 <div className="row justify-content-center text-center py-5">
                     <div className="col-lg-8">

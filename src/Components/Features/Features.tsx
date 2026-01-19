@@ -22,7 +22,6 @@ const Features = () => {
                                     exam success
                                 </p>
                             </div>
-
                         </div>
                     </div>
                     <div className="row align-items-center my-5 justify-content-center">
@@ -99,7 +98,6 @@ const Features = () => {
                                 </div>
                             </div>
                         </div>
-                        
                     </div>
                 </div>
             </section>

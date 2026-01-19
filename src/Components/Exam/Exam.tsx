@@ -72,7 +72,7 @@ const Exam = () => {
 
 
                             </div>
-                            <div className="col-lg-6 col-md-5 col-sm-12 ms-4">
+                            <div className="col-lg-6 col-md-5 col-sm-12">
                                 <div className="card rounded-5 mb-4 shadow-lg text-start p-0 exam-card ">
                                     <div className="card-body">
                                         <h4 className='text-start mt-3 fw-bold'>Subject Covered</h4>
